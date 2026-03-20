@@ -1,0 +1,171 @@
+{
+  "kilder": [
+    {
+      "navn": "Innovasjon Norge",
+      "url": "https://www.innovasjonnorge.no/tjenester/finansiering",
+      "scope": "norsk",
+      "type": "portal",
+      "beskrivelse": "Norges hovedportal for næringsrettet finansiering. Tilskudd, lån, garantier."
+    },
+    {
+      "navn": "Enova",
+      "url": "https://www.enova.no/bedrift/",
+      "scope": "norsk",
+      "type": "portal",
+      "beskrivelse": "Støtte til energi- og klimatiltak i næringslivet."
+    },
+    {
+      "navn": "Forskningsrådet",
+      "url": "https://www.forskningsradet.no/utlysninger/",
+      "scope": "norsk",
+      "type": "portal",
+      "beskrivelse": "Utlysninger for forskning og innovasjon. BIA, Grønn plattform, samfunnsoppdrag."
+    },
+    {
+      "navn": "Miljødirektoratet — Klimasats",
+      "url": "https://www.miljodirektoratet.no/klimasats",
+      "scope": "norsk",
+      "type": "portal",
+      "beskrivelse": "Støtte til kommuner/fylkeskommuner for klimatiltak. Svært relevant for LiiS + kommune-modellen."
+    },
+    {
+      "navn": "DFØ — Tilskudd.no",
+      "url": "https://tilskudd.no",
+      "scope": "norsk",
+      "type": "aggregator",
+      "beskrivelse": "Samleportal for statlige tilskuddsordninger."
+    },
+    {
+      "navn": "Handelens Miljøfond",
+      "url": "https://handelensmiljofond.no/",
+      "scope": "norsk",
+      "type": "portal",
+      "beskrivelse": "Finansierer prosjekter som reduserer plastforbruk og fremmer sirkulær økonomi."
+    },
+    {
+      "navn": "Sparebankstiftelsen DNB",
+      "url": "https://www.sparebankstiftelsen.no/",
+      "scope": "norsk",
+      "type": "stiftelse",
+      "beskrivelse": "Støtte til allmennyttige formål, inkludert miljø og bærekraft."
+    },
+    {
+      "navn": "Sparebankstiftelsen BV",
+      "url": "https://www.sparebankstiftelsenbv.no/",
+      "scope": "norsk",
+      "type": "stiftelse",
+      "beskrivelse": "Regional stiftelse med fokus på lokale prosjekter."
+    },
+    {
+      "navn": "Fritt Ord",
+      "url": "https://frfrittord.no/",
+      "scope": "norsk",
+      "type": "stiftelse",
+      "beskrivelse": "Støtte til informasjon, debatt og kultur. Relevant for kommunikasjon/atferdsdelen."
+    },
+    {
+      "navn": "Regjeringen — Tilskuddsordninger",
+      "url": "https://www.regjeringen.no/no/tema/kommuner-og-regioner/tilskudd/id2924058/",
+      "scope": "norsk",
+      "type": "portal",
+      "beskrivelse": "Oversikt over statlige tilskudd til kommuner og fylkeskommuner."
+    },
+    {
+      "navn": "Viken fylkeskommune — Næringsfond",
+      "url": "https://viken.no/tjenester/naring-og-innovasjon/",
+      "scope": "norsk",
+      "type": "regional",
+      "beskrivelse": "Regionale næringsfond og utviklingsmidler. LiiS er basert i Gjerdrum (Akershus/Viken)."
+    },
+    {
+      "navn": "KS — Kommunesektorens organisasjon",
+      "url": "https://www.ks.no/",
+      "scope": "norsk",
+      "type": "portal",
+      "beskrivelse": "Informasjon om kommunale innovasjonsprosjekter og finansiering."
+    },
+    {
+      "navn": "DOGA — Design og arkitektur Norge",
+      "url": "https://doga.no/aktiviteter/",
+      "scope": "norsk",
+      "type": "portal",
+      "beskrivelse": "Støtte til designdrevet innovasjon. Relevant for sirkulært design og tjenesteutvikling."
+    },
+    {
+      "navn": "Skattefunn",
+      "url": "https://www.skattefunn.no/",
+      "scope": "norsk",
+      "type": "portal",
+      "beskrivelse": "Skattefradrag for FoU-prosjekter. Relevant for teknologiutvikling i LiiS."
+    },
+    {
+      "navn": "SIVA",
+      "url": "https://siva.no/",
+      "scope": "norsk",
+      "type": "portal",
+      "beskrivelse": "Infrastruktur for innovasjon. Inkubatorer, næringshager, katapultsentre."
+    },
+    {
+      "navn": "Nordic Innovation",
+      "url": "https://www.nordicinnovation.org/programs",
+      "scope": "nordisk",
+      "type": "portal",
+      "beskrivelse": "Nordisk samarbeid om innovasjon og grønn omstilling."
+    },
+    {
+      "navn": "Nordisk Ministerråd",
+      "url": "https://www.norden.org/no/funding-opportunities",
+      "scope": "nordisk",
+      "type": "portal",
+      "beskrivelse": "Nordiske samarbeidsprogrammer og prosjektfinansiering."
+    },
+    {
+      "navn": "EU — Horizon Europe",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search",
+      "scope": "eu",
+      "type": "portal",
+      "beskrivelse": "EUs rammeprogram for forskning og innovasjon."
+    },
+    {
+      "navn": "EU — LIFE Programme",
+      "url": "https://cinea.ec.europa.eu/programmes/life_en",
+      "scope": "eu",
+      "type": "portal",
+      "beskrivelse": "EUs program for miljø- og klimatiltak."
+    },
+    {
+      "navn": "EIC Accelerator",
+      "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+      "scope": "eu",
+      "type": "portal",
+      "beskrivelse": "EU-støtte for innovative SMBer med høy vekstambisjon."
+    },
+    {
+      "navn": "Interreg",
+      "url": "https://www.interregnord.com/",
+      "scope": "eu",
+      "type": "portal",
+      "beskrivelse": "EU-finansiert regionalt samarbeid. Interreg Øresund-Kattegat-Skagerrak, Interreg Nord."
+    }
+  ],
+  "søkeord": {
+    "primær": [
+      "tilskudd sirkulær økonomi",
+      "støtte gjenbruk tekstil",
+      "tilskudd deleøkonomi barn",
+      "støtte kommunal innovasjon bærekraft",
+      "tilskudd reverse logistics Norge",
+      "støtte product as a service",
+      "tilskudd digital plattform bærekraft",
+      "klimatilskudd kommune",
+      "sirkulær økonomi forskning tilskudd"
+    ],
+    "sekundær": [
+      "funding circular economy textiles",
+      "grant sharing economy children",
+      "circular textile innovation funding Nordic",
+      "EPR extended producer responsibility funding",
+      "digital product passport funding EU"
+    ]
+  }
+}

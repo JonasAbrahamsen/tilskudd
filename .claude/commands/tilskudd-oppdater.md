@@ -1,0 +1,1 @@
+Bruker angir ID for en tilskuddsordning. Finn ordningen i funn/katalog.json, besøk den offisielle URL-en, sjekk om ordningen fortsatt er aktiv, oppdater frister og detaljer, og sett sist_oppdatert til dagens dato.

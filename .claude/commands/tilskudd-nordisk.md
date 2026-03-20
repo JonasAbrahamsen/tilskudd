@@ -1,0 +1,1 @@
+Les CLAUDE.md og kjør /tilskudd-nordisk-prosessen. Inkluder alle kilder med scope 'nordisk' og 'eu' i tillegg til norske. Bruk config/seed_kilder.json og config/kriterier.json. Oppdater funn/katalog.json og regenerer docs/index.html.

@@ -1,0 +1,131 @@
+{
+  "verdikjedelag": {
+    "design_produktutvikling": {
+      "navn": "Design og produktutvikling",
+      "ikon": "✏️",
+      "farge": "#4A90D9",
+      "beskrivelse": "Sirkulært design, holdbarhet, materialvalg, produktutvikling for lang levetid",
+      "nøkkelord": ["design", "produktutvikling", "material", "holdbarhet", "sirkulært design", "eco-design", "ecodesign", "levetid", "kvalitet"],
+      "aktører": ["LiiS AS", "Merkevarer i barnesegmentet"]
+    },
+    "produksjon_leverandor": {
+      "navn": "Produksjon og leverandør",
+      "ikon": "🏭",
+      "farge": "#7CB342",
+      "beskrivelse": "Bærekraftig produksjon, EPR, utvidet produsentansvar, merkevarepartnerskap",
+      "nøkkelord": ["produksjon", "leverandør", "EPR", "produsentansvar", "tekstilproduksjon", "supply chain", "verdikjede"],
+      "aktører": ["Merkevarer i barnesegmentet", "LiiS AS"]
+    },
+    "logistikk_redistribusjon": {
+      "navn": "Logistikk og redistribusjon",
+      "ikon": "🚛",
+      "farge": "#FFA726",
+      "beskrivelse": "Omvendt logistikk, RFID-sporing, redistribusjon, lagerhold, transportoptimalisering",
+      "nøkkelord": ["logistikk", "redistribusjon", "reverse logistics", "omvendt logistikk", "transport", "RFID", "sporing", "lager"],
+      "aktører": ["Lundebygruppen", "LiiS AS"]
+    },
+    "digital_plattform_teknologi": {
+      "navn": "Digital plattform og teknologi",
+      "ikon": "💻",
+      "farge": "#AB47BC",
+      "beskrivelse": "SaaS-plattform, Digital Product Passport (DPP), data/AI, abonnementssystemer",
+      "nøkkelord": ["digital", "plattform", "teknologi", "SaaS", "DPP", "digital product passport", "AI", "data", "abonnement", "software"],
+      "aktører": ["LiiS AS"]
+    },
+    "kommunal_implementering": {
+      "navn": "Kommunal implementering",
+      "ikon": "🏛️",
+      "farge": "#EC407A",
+      "beskrivelse": "Offentlige anskaffelser, Klimasats, kommunale innkjøp, barnehagesamarbeid",
+      "nøkkelord": ["kommune", "kommunal", "offentlig", "anskaffelse", "innkjøp", "barnehage", "Klimasats", "offentlig sektor"],
+      "aktører": ["Kommuner", "LiiS AS"]
+    },
+    "forskning_dokumentasjon": {
+      "navn": "Forskning og dokumentasjon",
+      "ikon": "🔬",
+      "farge": "#26A69A",
+      "beskrivelse": "Sirkulær økonomi-forskning, atferdsendring, helseeffekter, miljødokumentasjon",
+      "nøkkelord": ["forskning", "FoU", "R&D", "dokumentasjon", "studie", "analyse", "universitet", "SINTEF", "atferd"],
+      "aktører": ["Forskningsinstitusjoner", "LiiS AS"]
+    },
+    "forretningsutvikling_skalering": {
+      "navn": "Forretningsutvikling og skalering",
+      "ikon": "📈",
+      "farge": "#42A5F5",
+      "beskrivelse": "Vekst, internasjonalisering, investering, forretningsmodellutvikling",
+      "nøkkelord": ["vekst", "skalering", "internasjonalisering", "forretningsmodell", "marked", "eksport", "investering", "oppstart"],
+      "aktører": ["LiiS AS"]
+    },
+    "reparasjon_levetidsforlengelse": {
+      "navn": "Reparasjon og levetidsforlengelse",
+      "ikon": "🔧",
+      "farge": "#8D6E63",
+      "beskrivelse": "Reparasjonstjenester, vedlikehold, opplæring, rett til reparasjon",
+      "nøkkelord": ["reparasjon", "vedlikehold", "levetid", "rett til reparasjon", "right to repair", "ombruk", "gjenbruk"],
+      "aktører": ["LiiS AS", "Lundebygruppen"]
+    },
+    "kommunikasjon_atferdsendring": {
+      "navn": "Kommunikasjon og atferdsendring",
+      "ikon": "📣",
+      "farge": "#FFCA28",
+      "beskrivelse": "Nudging, holdningskampanjer, forbrukerengasjement, bærekraftig forbruk",
+      "nøkkelord": ["kommunikasjon", "atferd", "nudging", "kampanje", "forbruk", "holdning", "engasjement", "informasjon"],
+      "aktører": ["LiiS AS", "Kommuner"]
+    }
+  },
+  "aktører": {
+    "liis": {
+      "navn": "LiiS AS",
+      "type": "SMB",
+      "beskrivelse": "Plattformeier for Parkdressen. Sirkulær forretningsmodell, B2B2C, dataplattform.",
+      "kan_søke_som": ["bedrift", "SMB", "oppstart", "sosial entreprenør"]
+    },
+    "lundebygruppen": {
+      "navn": "Lundebygruppen",
+      "type": "Logistikkpartner",
+      "beskrivelse": "Logistikk- og redistribusjonspartner. Reverse logistics, lager, transport.",
+      "kan_søke_som": ["bedrift", "logistikkselskap", "partner i konsortium"]
+    },
+    "kommuner": {
+      "navn": "Kommuner",
+      "type": "Offentlig",
+      "beskrivelse": "Kommunale barnehageeiere og innkjøpere. Klimasats-berettiget.",
+      "kan_søke_som": ["kommune", "offentlig sektor", "fylkeskommune"]
+    },
+    "merkevarer": {
+      "navn": "Merkevarer i barnesegmentet",
+      "type": "Industri",
+      "beskrivelse": "Produsenter av barnetøy, barnemøbler, barneutstyr som vil inn i sirkulære modeller.",
+      "kan_søke_som": ["bedrift", "produsent", "merkevare", "industri"]
+    },
+    "forskning": {
+      "navn": "Forskningsinstitusjoner",
+      "type": "Akademia",
+      "beskrivelse": "Universiteter, SINTEF, SIFO, OsloMet — forskning på sirkulær økonomi og atferd.",
+      "kan_søke_som": ["forskningsinstitusjon", "universitet", "konsortium"]
+    },
+    "konsortium": {
+      "navn": "Konsortium/partnerskap",
+      "type": "Samarbeid",
+      "beskrivelse": "Flere aktører som søker sammen. Typisk krav i større programmer.",
+      "kan_søke_som": ["konsortium", "partnerskap", "klynge"]
+    }
+  },
+  "scoring": {
+    "tematisk_relevans": {
+      "vekt": 0.40,
+      "høy": ["sirkulær økonomi", "tekstil gjenbruk", "product as a service", "barnehage", "kommunal bærekraft", "deleøkonomi"],
+      "middels": ["bærekraft generelt", "innovasjon SMB", "grønn omstilling", "digitalisering"],
+      "lav": ["generell innovasjon", "eksport", "industri generelt"]
+    },
+    "søkertype_match": {
+      "vekt": 0.25
+    },
+    "gjennomførbarhet": {
+      "vekt": 0.20
+    },
+    "strategisk_verdi": {
+      "vekt": 0.15
+    }
+  }
+}

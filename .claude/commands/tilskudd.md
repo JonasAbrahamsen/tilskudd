@@ -1,0 +1,1 @@
+Les CLAUDE.md og kjør /tilskudd-prosessen. Start med å lese config/kriterier.json og config/seed_kilder.json, deretter funn/katalog.json. Kjør seed-crawl og søkebasert discovery. Match, scorer og katalogiser nye funn. Oppdater funn/katalog.json og regenerer docs/index.html.

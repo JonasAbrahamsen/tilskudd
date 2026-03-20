@@ -1,0 +1,20 @@
+{
+  "customCommands": {
+    "tilskudd": {
+      "description": "Søk etter nye norske tilskuddsordninger for LiiS verdikjeden",
+      "prompt": "Les CLAUDE.md og kjør /tilskudd-prosessen. Start med å lese config/kriterier.json og config/seed_kilder.json, deretter funn/katalog.json. Kjør seed-crawl og søkebasert discovery. Match, scorer og katalogiser nye funn. Oppdater funn/katalog.json og regenerer docs/index.html."
+    },
+    "tilskudd-nordisk": {
+      "description": "Søk etter nordiske og EU tilskuddsordninger i tillegg til norske",
+      "prompt": "Les CLAUDE.md og kjør /tilskudd-nordisk-prosessen. Inkluder alle kilder med scope 'nordisk' og 'eu' i tillegg til norske."
+    },
+    "tilskudd-status": {
+      "description": "Vis oppsummering av tilskuddskatalogen",
+      "prompt": "Les funn/katalog.json og gi en oppsummering: antall ordninger per verdikjedelag, per prioritet, per scope. List ordninger med kommende frister."
+    },
+    "tilskudd-oppdater": {
+      "description": "Oppdater en spesifikk ordning",
+      "prompt": "Bruker angir ID. Sjekk om ordningen fortsatt er aktiv, oppdater frister og detaljer i funn/katalog.json."
+    }
+  }
+}

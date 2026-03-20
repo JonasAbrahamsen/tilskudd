@@ -1,0 +1,1 @@
+Les funn/katalog.json og gi en oppsummering: antall ordninger per verdikjedelag, per prioritet, per scope. List ordninger med kommende frister (sorter etter fristdato). Marker nye funn siden sist kjøring.
