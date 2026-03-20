@@ -1,4 +1,11 @@
-# LiiS Tilskuddsagent
+# LiiS Tilskuddsradar — CLAUDE.md
+
+## Om denne filen
+Dette er instruksjonsfilen for **Claude Code** (Anthropics AI-kodeverktøy). Filen heter `CLAUDE.md` fordi Claude Code automatisk laster den inn som kontekst ved oppstart i dette prosjektet — uansett hvem som åpner det. Det betyr at en ny sesjon, en kollega eller en ny instans av Claude Code umiddelbart vet hva prosjektet er, hva det kan gjøre og hvordan det skal oppføre seg.
+
+**Du som leser dette er sannsynligvis:**
+- Claude Code (AI) — følg instruksjonene nedenfor
+- En menneskelig bidragsyter — les for å forstå hvordan AI-agenten er konfigurert
 
 ## Hva dette er
 En AI-drevet tilskuddscrawler for LiiS og Parkdressen-verdikjeden. Du (Claude Code) er agenten som søker, vurderer og katalogiserer tilskuddsordninger.
@@ -112,3 +119,37 @@ Hvert funn i `funn/katalog.json` skal ha denne strukturen:
 - Vær konservativ med scoring — en ordning for "generell innovasjon" scorer lavere enn en for "sirkulær økonomi i tekstilbransjen"
 - Inkluder alltid URL til den offisielle søknadssiden
 - Hvis en frist er ukjent, sett "løpende" eller "ukjent"
+- Bruk **ikke** nummerprefix (f.eks. "4.") i `verdikjedelag`-feltet — skriv bare "Digital plattform og teknologi"
+
+## Teknisk arkitektur
+
+### Filstruktur
+```
+funn/katalog.json          ← master-katalog (kilde til sannhet)
+docs/funn/katalog.json     ← kopi som GitHub Pages kan serve (må holdes synkronisert)
+docs/index.html            ← dashboard (laster katalogen via fetch("funn/katalog.json"))
+config/kriterier.json      ← verdikjedelag og scoringskriterier
+config/seed_kilder.json    ← liste over tilskuddsportaler å crawle
+```
+
+### Viktig: to kopier av katalogen
+GitHub Pages serverer kun filer under `docs/`. Derfor finnes katalogen to steder:
+- `funn/katalog.json` — oppdateres av Claude Code
+- `docs/funn/katalog.json` — må kopieres fra `funn/katalog.json` etter hver oppdatering
+
+**Etter enhver endring i `funn/katalog.json`:**
+```bash
+cp funn/katalog.json docs/funn/katalog.json
+git add funn/katalog.json docs/funn/katalog.json
+git commit -m "..."
+git push
+```
+
+### Dashboard
+Publisert på GitHub Pages: `https://jonasabrahamsen.github.io/tilskudd/`
+Konfigurert til å serve fra `main`-branchen, `/docs`-mappen.
+
+## Søkehistorikk
+
+### Runde 1 — 2026-03-20
+Første søk. Crawlet norske seed-kilder (Innovasjon Norge, Forskningsrådet, Miljødirektoratet, DOGA, Akershus fylkeskommune). Fant 10 ordninger: 6 høy prioritet, 4 middels. Ingen nordiske/EU-kilder dekket ennå.
