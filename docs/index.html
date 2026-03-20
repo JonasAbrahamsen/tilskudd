@@ -366,7 +366,7 @@ let searchQuery = "";
 // ── Load data ──────────────────────────
 async function loadData() {
   try {
-    const res = await fetch("../funn/katalog.json");
+    const res = await fetch("funn/katalog.json");
     data = await res.json();
   } catch {
     // If running locally or katalog not found, use demo data
